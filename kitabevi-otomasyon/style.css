@@ -1,0 +1,13 @@
+.navbar-dark .nav-link:hover {
+  font-weight: bold;
+}
+.image-container {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.image-caption {
+  margin-left: 20px;
+  text-align: left;
+}
