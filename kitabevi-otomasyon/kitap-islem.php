@@ -12,7 +12,7 @@ if (isset($_POST["kitap-ekle"])) {
     sayfa_sayisi=:sayfa_sayisi,
     fiyat=:fiyat,
     stok_sayisi=:stok_sayisi,
-    kitap_resim=kitap_resim
+    kitap_resim=:kitap_resim
     
     ");
     $insert = $kaydet->execute(

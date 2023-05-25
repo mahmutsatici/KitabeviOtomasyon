@@ -86,7 +86,12 @@ include "baglanti.php";
             </nav>
             <div class="row">
                 <div class="col-md-12" style="text-align:center;">
-                    <?php if (@$_GET["durum"] == "yes") { ?>
+
+                    <?php if (@$_GET["durum"] == "yesss") { ?>
+                    <div class="alert bg-success" id="successAlert">
+                        <b style="color:aliceblue">Sipariş Başarılı</b>
+                    </div>
+                    <?php } else if (@$_GET["durum"] == "yes") { ?>
                     <div class="alert bg-success" id="successAlert">
                         <b style="color:aliceblue">Kayıt Başarılı</b>
                     </div>
